@@ -1,0 +1,1 @@
+Removes bouncing of 40mm UGL smoke rounds.

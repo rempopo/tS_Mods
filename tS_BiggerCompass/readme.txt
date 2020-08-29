@@ -1,0 +1,1 @@
+Makes compass model bigger in game (K key)
