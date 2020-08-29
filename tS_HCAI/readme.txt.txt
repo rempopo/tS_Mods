@@ -1,0 +1,1 @@
+Changes AI difficulty settings ranges to 0...1.

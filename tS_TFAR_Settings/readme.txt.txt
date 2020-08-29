@@ -1,0 +1,1 @@
+Adds half-duplex effect to radios (hear or transmit)

@@ -1,0 +1,1 @@
+Changes map grid to 1000x1000m miniumum

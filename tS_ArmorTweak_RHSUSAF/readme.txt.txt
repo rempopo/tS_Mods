@@ -1,0 +1,1 @@
+Changes armor values for RHSUSAF helmets and bodyarmors to meet vanilla standards.

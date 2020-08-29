@@ -1,12 +1,4 @@
 ﻿
-// Backward compatibility to old ACE Medical healing
-if (isNil "ace_medical_fnc_treatmentAdvanced_fullHealLocal") then {
-	ace_medical_fnc_treatmentAdvanced_fullHealLocal = {
-		params ["_patient"];
-		[_patient] call ace_medical_treatment_fnc_fullHealLocal;
-	};
-};
-
 // Backward compatibility for tSF to prevent admin from being freezed on mission start
 if (hasInterface) then {
 	[] spawn {

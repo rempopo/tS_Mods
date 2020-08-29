@@ -10,6 +10,15 @@
 ] call CBA_fnc_addSetting;
 
 // --- Functions
+
+// Backward compatibility to old ACE Medical healing
+if (isNil "ace_medical_fnc_treatmentAdvanced_fullHealLocal") then {
+	ace_medical_fnc_treatmentAdvanced_fullHealLocal = {
+		params ["_patient"];
+		[_patient] call ace_medical_treatment_fnc_fullHealLocal;
+	};
+};
+
 // -- Heals broken legs once all wounds bandaged
 tS_ACE_Medical_fnc_handleLegTreatment = {
 	_this params ["_caller", "_target", "_selectionName", "_className"];
