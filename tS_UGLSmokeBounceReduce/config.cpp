@@ -29,9 +29,8 @@ class CfgAmmo {
 	class rhs_40mm_m716_yellow: SmokeShellYellow    __NO_BOUNCE;
 	
 	// RHS AFRF
-	class rhs_g_vog25;
-	
-	class rhs_g_gdm40: rhs_g_vog25                  __NO_BOUNCE;
+	class rhs_g_vog25;	
+	class rhs_g_gdm40;
 	class rhs_g_vg40md: rhs_g_gdm40                 __NO_BOUNCE;
 	class rhs_g_vg40md_white: rhs_g_vog25           __NO_BOUNCE;
 	class rhs_g_vg40md_green: rhs_g_vg40md_white    __NO_BOUNCE;
