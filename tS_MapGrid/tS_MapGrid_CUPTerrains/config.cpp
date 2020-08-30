@@ -38,6 +38,8 @@ class CfgPatches
 			, "Utes"			
 			, "CUP_Zargabad_Config"
 			, "zargabad"
+			, "CUP_Chernarus_Winter"
+			, "CUP_Chernarus_Winter_Config"
 		};
 	};
 };
@@ -115,6 +117,10 @@ class CfgWorlds
 		TS_GRID_SETTINGS
 	};	
 	class Zargabad: CAWorld
+	{
+		TS_GRID_SETTINGS
+	};
+	class Chernarus_Winter: CAWorld
 	{
 		TS_GRID_SETTINGS
 	};

@@ -1,0 +1,1 @@
+Tweaks friction and maxSpeedCoef of surfaces to reduce speed of vehicles moving offroad.
