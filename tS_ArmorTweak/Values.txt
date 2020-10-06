@@ -1,0 +1,36 @@
+
+Type       # Armor     # Pass       # HitPointName 
+Helmets =====================
+
+Light      # 4         # 0.5        # Head/HitHead
+Medium     # 6         # 0.5        # Head/HitHead
+Heavy      # 10        # 0.5        # Head/HitHead
+Assault    # 12        # 0.5        # Head/HitHead
+           # 8         # 0.5        # Face/HitFace
+
+
+Vests =======================
+
+Light      # 8         # 0.5        # Abdomen/HitAbdomen
+           # 8         # 0.5        # Body/HitBody
+           # 8         # 0.5        # Chest/HitChest
+           # 8         # 0.5        # Diaphragm/HitDiaphragm
+
+Medium     # 16        # 0.3        # Abdomen/HitAbdomen
+           # 16        # 0.3        # Body/HitBody
+           # 16        # 0.3        # Chest/HitChest
+           # 16        # 0.3        # Diaphragm/HitDiaphragm
+           # 16        # 0.3        # Pelvis/HitPelvis
+
+Heavy      # 20        # 0.2        # Abdomen/HitAbdomen
+           # --        # 0.2        # Body/HitBody
+           # 20        # 0.2        # Chest/HitChest
+           # 20        # 0.2        # Diaphragm/HitDiaphragm
+           #           # 0.         # Pelvis/HitPelvis
+		   
+Assault    # 24        # 0.1        # Abdomen/HitAbdomen
+           # --        # 0.1        # Body/HitBody
+           # 24        # 0.1        # Chest/HitChest
+           # 24        # 0.1        # Diaphragm/HitDiaphragm
+           # 8         # 0.5        # Arms/HitArms
+           # 8         # 0.5        # Neck/HitNeck
